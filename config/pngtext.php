@@ -5,6 +5,7 @@ return array
 	'debug' => TRUE,  // Show errors as images rather than supressing output
 	'fonts' => array
 	(
-		// Specify list of font names => font files
+		// List of font names => font files
+		'cabnd' => 'CABNDWebBold.otf',
 	),
 );
