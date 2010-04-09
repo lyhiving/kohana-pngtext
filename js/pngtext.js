@@ -60,10 +60,10 @@ jQuery.fn.pngtext = function(font, hover)
 				tag.css('backgroundColor', 'transparent');
 				tag.css('backgroundImage', 'url('+src+')');
 
+				source.html(tag);
+
 				// Set the hover style to adjust background position accordingly
 				tag.parent().hover(function(){ tag.css('backgroundPosition', '0 -'+height+'px'); }, function(){ tag.css('backgroundPosition', '0 0'); });
-
-				source.html(tag);
 			});					
 		}
 		else
