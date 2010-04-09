@@ -39,7 +39,7 @@ class Controller_PNGText extends Controller
 			if ($hover)
 			{
 				// Create new hover image and stack it
-				$hover = new PNGText(arr::get($_GET, 'text'), $_GET);
+				$hover = new PNGText($text, $styles);
 				$img->stack($hover);
 			}
 
